@@ -1,0 +1,159 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+ body{
+    font-family: "Cairo", sans-serif;
+    /* height: 3000px; */
+}
+.header{
+   background-color: rgb(32, 182,185 );
+   color:white;
+   height: 50px;
+   line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+
+.carousel-indicators li{
+    height: 20px;
+    color: red;
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 226, 222, 0.197);
+    z-index:1;
+    position: absolute;
+}
+.features {
+    margin: 75px;
+
+
+}
+.features i {
+    width: 100px;
+    height: 100px;
+    
+    background-color: rgb(31, 208, 185);
+    line-height: 100px;
+    color: white;
+    font-size:40px;
+    
+}
+.features h3{
+    display:inline-block ;
+    background-color:rgb(150, 249, 236);
+    color: rgb(10, 111, 98);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.features p {
+    color: rgb(86, 85, 85);
+    line-height: 1.8;
+}
+.features h2{ 
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.our-team{
+    background-image: url(../images/r.webp);
+    padding: 30px;
+    border-bottom: 3px solid rgb(60, 179, 179);
+  
+}
+.statistic{
+margin-top: 100px;
+ height: 500px; 
+width: 100%;
+background-image: url(../images/5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.statistic .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(115, 161, 161, 0.085);
+    
+    padding-top: 130px;
+
+}
+.statistic .overlay h3{
+    color: white;
+    
+}
+.statistic .overlay p{
+    color: rgb(3, 197, 190);
+    font-size: 75px;
+    
+}
+.our-customers{
+   margin-top: 50px; 
+    background-image: url(../images/r.webp);
+    line-height: 300px;
+    background-color: aquamarine;
+    border-bottom: 3px solid rgb(60, 179, 179);
+}
+.recent-news .btn-danger {
+    background-color: rgb(24, 226, 226);
+    border-color:rgb(24, 226, 226) ;
+   
+}
+.recent-news .btn-danger:hover{
+    background-color: brown;
+
+}
+footer {
+    background-color: rgb(3, 106, 108); 
+    padding-top: 30px;
+    margin-top: 150px;
+   
+}
+
+
+
+footer p{
+    color: white;
+}
+footer h2{
+    color: rgb(200, 200, 200);
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+footer ul li {
+    list-style: none;
+}
+.jumbotron {
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-between;
+}
+.jumbotron .blog-info{
+    flex: 2;
+}
+
+.jumbotron .blog-img{
+    flex: 1;
+}
+.blog-details p{
+    line-height: 2;
+    padding: 10px;
+
+}
+
+.card img:hover
+{
+transform: scale(1.1);
+}
+
+
